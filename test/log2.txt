@@ -1,0 +1,33 @@
+﻿--- Fri Jan 27 13:39:35 2023
+
+My cousins came to live with me by chance. This arrangement began nearly half
+a year ago.
+
+I picked them up at the training camp across the mountain path from town in
+the early evening.
+
+It was a cold day, during the rainy season, and I was eager to get back, since
+I had left an object in town for appraisal.
+
+Shera
+Do you have everything?
+
+Salemi Narat
+I believe so.
+
+Basari Narat
+...
+
+Shera
+Well, great! Then let's go-
+
+Shera
+(I would prefer that they weren't forced to wait for me, but I am in a bit of
+a hurry to return to Mr. Lara in town.)
+
+This game uses a text prompt feature. The prompter will display potential
+actions for Shera to decide between.
+
+The prompter may accept other commands, some of which may affect gameplay. For
+a full list, type "cmd".
+

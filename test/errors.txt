@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 427: expected menuitem
+    show ravie angry at offscreenright
+    ^
+
+Ren'Py Version: Ren'Py 8.0.3.22090809
+Tue Jan 31 17:44:10 2023

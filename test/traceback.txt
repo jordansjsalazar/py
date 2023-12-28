@@ -1,0 +1,38 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 610, in script
+    $ renpy.jump(takeInput("Where to?", "town2"))
+  File "game/script.rpy", line 610, in <module>
+    $ renpy.jump(takeInput("Where to?", "town2"))
+  File "game/script.rpy", line 91, in takeInput
+    return readInput(lst, key)
+  File "game/script.rpy", line 98, in readInput
+    return parserGet("look", s[len(s)-1], key)
+  File "game/script.rpy", line 123, in parserGet
+    map = keys[key]
+KeyError: 'town2'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 610, in script
+    $ renpy.jump(takeInput("Where to?", "town2"))
+  File "/Users/ululation/Desktop/renpy-8.0.3-sdk/renpy/ast.py", line 1131, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "/Users/ululation/Desktop/renpy-8.0.3-sdk/renpy/python.py", line 1061, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 610, in <module>
+    $ renpy.jump(takeInput("Where to?", "town2"))
+  File "game/script.rpy", line 91, in takeInput
+    return readInput(lst, key)
+  File "game/script.rpy", line 98, in readInput
+    return parserGet("look", s[len(s)-1], key)
+  File "game/script.rpy", line 123, in parserGet
+    map = keys[key]
+KeyError: 'town2'
+
+macOS-10.16-x86_64-i386-64bit x86_64
+Ren'Py 8.0.3.22090809
+test 1.0
+Tue Jan 31 17:46:49 2023
