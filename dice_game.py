@@ -26,7 +26,7 @@ while rounds <= 6:
     dice = temp
     rounds += 1
 
-if dice[0] + dice[1] + dice[2] == 6:
+if dice[0] == dice[1] == dice[2] == 6:
     print("You win!")
 else:
     print("You lose :(")
